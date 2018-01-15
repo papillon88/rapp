@@ -1,0 +1,8 @@
+<div class="page-header" style="margin-left: 10px;margin-right: 10px">
+  <h3>Recipes</h3>
+</div>
+<div *ngFor="let recipe1 of recipes">
+  <div class = "col-xs-6 col-sm-6 col-md-6">
+    <app-recipe-widget [recipe]="recipe1"></app-recipe-widget>
+  </div>
+</div>
